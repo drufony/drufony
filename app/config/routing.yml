@@ -1,0 +1,2 @@
+drupal:
+    resource: "@BangpoundDrupalBundle/Resources/config/routing.yml"
