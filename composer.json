@@ -31,7 +31,7 @@
         "sensio/generator-bundle": "~2.3",
         "incenteev/composer-parameter-handler": "~2.0",
         "drupal/drupal": "dev-7.x-symfony",
-        "drush/drush": "~6.2",
+        "drush/drush": "dev-master",
         "bangpound/drupal-bundle": "dev-master",
         "pimple/pimple": "2.0.*@dev"
     },
