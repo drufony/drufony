@@ -11,6 +11,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/bangpound/drupal"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/bangpound/drush"
         }
     ],
     "require": {
