@@ -1,8 +1,9 @@
 {
-    "name": "symfony/framework-standard-edition",
+    "name": "bangpound/symfony-drupal",
     "license": "MIT",
     "type": "project",
-    "description": "The \"Symfony Standard Edition\" distribution",
+    "homepage": "http://bangpound.github.io/symfony-drupal/",
+    "description": "The \"Symfony Standard Edition\" distribution but for Drupal 7.",
     "autoload": {
         "psr-0": { "": "src/" }
     },
