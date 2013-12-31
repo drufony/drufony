@@ -33,6 +33,7 @@
         "drupal/drupal": "dev-7.x-symfony",
         "drush/drush": "dev-master",
         "bangpound/drupal-bundle": "dev-master",
+        "bangpound/symfony-module": "dev-master",
         "pimple/pimple": "2.0.*@dev"
     },
     "scripts": {
@@ -61,6 +62,12 @@
         "symfony-web-dir": "web",
         "incenteev-parameters": {
             "file": "app/config/parameters.yml"
+        },
+        "installer-paths": {
+            "web/sites/all/modules/{$name}/": ["type:drupal-module"],
+            "web/sites/all/themes/{$name}/": ["type:drupal-theme"],
+            "web/profiles/{$name}/": ["type:drupal-profile"],
+            "web/sites/all/drush/{$name}/": ["type:drupal-drush"]
         },
         "branch-alias": {
             "dev-master": "2.4-dev"
