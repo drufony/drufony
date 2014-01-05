@@ -1,12 +1,17 @@
 security:
     encoders:
         Symfony\Component\Security\Core\User\User: plaintext
+        Bangpound\Bundle\DrupalBundle\Security\User\User:
+            id: bangpound_drupal.encoder
 
     role_hierarchy:
         ROLE_ADMIN:       ROLE_USER
         ROLE_SUPER_ADMIN: [ROLE_USER, ROLE_ADMIN, ROLE_ALLOWED_TO_SWITCH]
 
     providers:
+        bangpound_drupal:
+            id: bangpound_drupal.user_provider
+
         in_memory:
             memory:
                 users:
@@ -17,6 +22,19 @@ security:
         dev:
             pattern:  ^/(_(profiler|wdt)|css|images|js)/
             security: false
+
+        drupal:
+            pattern: ^/
+            anonymous: ~
+            logout:
+                path:   user/logout
+                invalidate_session: true
+            form_login:
+                check_path: /user/login
+                login_path: /user/login
+                username_parameter: name
+                password_parameter: pass
+                require_previous_session: true
 
         login:
             pattern:  ^/demo/secured/login$
