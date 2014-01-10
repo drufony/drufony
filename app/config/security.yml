@@ -35,7 +35,6 @@ security:
                 login_path: /user/login
                 username_parameter: name
                 password_parameter: pass
-                require_previous_session: true
 
         login:
             pattern:  ^/demo/secured/login$
