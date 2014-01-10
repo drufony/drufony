@@ -24,15 +24,15 @@ security:
             security: false
 
         drupal:
-            pattern: ^/
+            pattern: ^.+$
             anonymous: ~
             logout:
                 path:   user/logout
                 invalidate_session: true
                 handlers: [ bangpound_drupal.logout.handler ]
             form_login:
-                check_path: /user/login
-                login_path: /user/login
+                check_path: user/login
+                login_path: user
                 username_parameter: name
                 password_parameter: pass
 
