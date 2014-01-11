@@ -15,6 +15,14 @@
         {
             "type": "vcs",
             "url": "https://github.com/bangpound/drush"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/bangpound/minimal"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/bangpound/standard"
         }
     ],
     "require": {
@@ -31,6 +39,8 @@
         "sensio/generator-bundle": "~2.3",
         "incenteev/composer-parameter-handler": "~2.0",
         "drupal/drupal": "dev-7.x-symfony",
+        "drupal/minimal": "7.*@dev",
+        "drupal/standard": "7.*@dev",
         "drush/drush": "dev-master",
         "bangpound/drupal-bundle": "dev-master",
         "bangpound/symfony-module": "dev-master"
