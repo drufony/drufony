@@ -33,8 +33,7 @@
         "drupal/drupal": "dev-7.x-symfony",
         "drush/drush": "dev-master",
         "bangpound/drupal-bundle": "dev-master",
-        "bangpound/symfony-module": "dev-master",
-        "pimple/pimple": "2.0.*@dev"
+        "bangpound/symfony-module": "dev-master"
     },
     "scripts": {
         "post-install-cmd": [
