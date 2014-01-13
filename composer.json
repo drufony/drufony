@@ -65,9 +65,6 @@
             "web/sites/all/themes/{$name}/": ["type:drupal-theme"],
             "web/profiles/{$name}/": ["type:drupal-profile"],
             "web/sites/all/drush/{$name}/": ["type:drupal-drush"]
-        },
-        "branch-alias": {
-            "dev-master": "2.4-dev"
         }
     }
 }
