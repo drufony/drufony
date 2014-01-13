@@ -1,8 +1,8 @@
 {
-    "name": "bangpound/symfony-drupal",
+    "name": "drufony/drufony",
     "license": "MIT",
     "type": "project",
-    "homepage": "http://bangpound.github.io/symfony-drupal/",
+    "homepage": "http://drufony.github.io",
     "description": "The \"Symfony Standard Edition\" distribution but for Drupal 7.",
     "autoload": {
         "psr-0": { "": "src/" }
