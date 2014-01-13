@@ -9,20 +9,8 @@
     },
     "repositories": [
         {
-            "type": "vcs",
-            "url": "https://github.com/bangpound/drupal"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/bangpound/drush"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/bangpound/minimal"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/bangpound/standard"
+            "type": "composer",
+            "url": "http://drufony.github.io"
         }
     ],
     "require": {
