@@ -24,7 +24,6 @@
         "symfony/monolog-bundle": "~2.4",
         "sensio/distribution-bundle": "~2.3",
         "sensio/framework-extra-bundle": "~3.0",
-        "sensio/generator-bundle": "~2.3",
         "incenteev/composer-parameter-handler": "~2.0",
         "drupal/drupal": "dev-7.x-symfony",
         "drupal/minimal": "7.*@dev",
@@ -32,6 +31,9 @@
         "drush/drush": "dev-master",
         "bangpound/drupal-bundle": "dev-master",
         "bangpound/symfony-module": "dev-master"
+    },
+    "require-dev": {
+        "sensio/generator-bundle": "~2.3"
     },
     "scripts": {
         "post-install-cmd": [
