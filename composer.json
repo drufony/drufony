@@ -28,7 +28,7 @@
         "drupal/drupal": "dev-7.x-symfony",
         "drupal/minimal": "7.*@dev",
         "drupal/standard": "7.*@dev",
-        "drush/drush": "dev-master",
+        "drush/drush": "dev-develop",
         "bangpound/drupal-bundle": "dev-master",
         "bangpound/symfony-module": "dev-master"
     },
