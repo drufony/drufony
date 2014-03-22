@@ -35,6 +35,8 @@ security:
                 login_path: user
                 username_parameter: name
                 password_parameter: pass
+            simple_preauth:
+                authenticator: bangpound_drupal.hashed_password_authenticator
 
         login:
             pattern:  ^/demo/secured/login$
