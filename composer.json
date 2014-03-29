@@ -37,22 +37,22 @@
     },
     "scripts": {
         "post-install-cmd": [
-            "Bangpound\\Bundle\\DrupalBundle\\Composer\\ScriptHandler::installDrupal",
+            "Bangpound\\Bridge\\Drupal\\Composer\\ScriptHandler::installDrupal",
             "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
-            "Bangpound\\Drupal\\Composer\\ScriptHandler::dumpAutoload"
+            "Bangpound\\Bridge\\Drupal\\Composer\\ScriptHandler::dumpAutoload"
         ],
         "post-update-cmd": [
-            "Bangpound\\Bundle\\DrupalBundle\\Composer\\ScriptHandler::installDrupal",
+            "Bangpound\\Bridge\\Drupal\\Composer\\ScriptHandler::installDrupal",
             "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
-            "Bangpound\\Drupal\\Composer\\ScriptHandler::dumpAutoload"
+            "Bangpound\\Bridge\\Drupal\\Composer\\ScriptHandler::dumpAutoload"
         ]
     },
     "config": {
